@@ -36,14 +36,16 @@ export const Projects = () => {
 
                     <div className="flex justify-between items-center">
                         <a 
-                            href="#" 
+                            href="https://jwenham22.github.io/unit1-project/" 
+                            target="_blank"
+                            rel="nonopener noreferrer"
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                             > 
                             View Project ➡️ 
                         </a>
                     </div>
                 </div>
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition">
+                {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition">
                     <h3 className="text-xl font-bold mb-2">SportsU</h3>
                     <p className="text-gray-400 mb-4">
                     An app specificaly designed for sports enthusiasts
@@ -70,7 +72,7 @@ export const Projects = () => {
                             View Project ➡️ 
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition">
                     <h3 className="text-xl font-bold mb-2">Code.tracker</h3>
                     <p className="text-gray-400 mb-4">
@@ -94,14 +96,16 @@ export const Projects = () => {
 
                     <div className="flex justify-between items-center">
                         <a 
-                            href="#" 
+                            href="https://icecream-code-tracker.netlify.app/"
+                            target="_blank"
+                            rel="nonopener noreferrer"
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                             > 
                             View Project ➡️ 
                         </a>
                     </div>
                 </div>
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition">
+                {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition">
                     <h3 className="text-xl font-bold mb-2">CourseRate</h3>
                     <p className="text-gray-400 mb-4">
                     CourseRate is an app dedicated to golf enthusiasts 
@@ -130,7 +134,7 @@ export const Projects = () => {
                             View Project ➡️ 
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
             </div>
         </RevealOnScroll>
